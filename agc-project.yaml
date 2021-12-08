@@ -1,0 +1,14 @@
+name: hello
+schemaVersion: 1
+contexts:
+    ctx2:
+        instanceTypes: [ "c6g.large" ]
+        engines:
+            - type: nextflow
+              engine: nextflow
+workflows:
+  hello:
+    type:
+      language: nextflow
+      version: 1.0
+    sourceURL: .

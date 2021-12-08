@@ -1,0 +1,5 @@
+{
+  "mainWorkflowURL": "./main.nf",
+  "inputFileURLs": [],
+  "engineOptions": "-resume"
+}
